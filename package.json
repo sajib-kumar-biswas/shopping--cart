@@ -1,0 +1,22 @@
+{
+  "name": "shopping--cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./tailwindcss/style.css -o ./rawcss/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sajib-kumar-biswas/shopping--cart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sajib-kumar-biswas/shopping--cart/issues"
+  },
+  "homepage": "https://github.com/sajib-kumar-biswas/shopping--cart#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}

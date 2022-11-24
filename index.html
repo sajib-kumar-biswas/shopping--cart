@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ICONSOUT -->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!-- CUSTOM STYLESHEET -->
+        <link rel="stylesheet" href="./rawcss/style.css">
+
+        <title>My Shopping Cart</title>
+    </head>
+
+    <body>
+
+        <h1 class="text-5xl text-center">My Shopping Cart</h1>
+
+        <div class="w-3/4 mx-auto bg-gray-400 p-16 space-y-8 my-12">
+
+            <div class="rounded-lg bg-white grid grid-cols-2 items-center justify-between">
+                <div class="flex items-center gap-4">
+                    <img class="w-32" src="./images/product-1.png" alt="">
+                    <h2 class="w-fit">iPhone 13 128GB Black</h2>
+                </div>
+
+                <div class="grid grid-cols-2 items-center">
+                    <div class="flex justify-start items-center gap-4">
+                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-minus"></i></span>
+                        <input class="text-xl w-20"  type="number" value="4" name="" id="">
+                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-plus"></i></span>
+                    </div>
+
+                    <div class="grid grid-cols-2">
+                        <p>$<span>4876</span> </p>
+                        <img class="hover:cursor-pointer w-6" src="./images/remove.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+                        <div class="rounded-lg bg-white grid grid-cols-2 items-center justify-between">
+                <div class="flex items-center gap-4">
+                    <img class="w-32 ml-4" src="./images/product-2.png" alt="">
+                    <h2 class="w-fit">iPhone 13 Silicone Case - Black</h2>
+                </div>
+
+                <div class="grid grid-cols-2 items-center">
+                    <div class="flex justify-start items-center gap-4">
+                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-minus"></i></span>
+                        <input class="text-xl w-20"  type="number" value="4" name="" id="">
+                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-plus"></i></span>
+                    </div>
+
+                    <div class="grid grid-cols-2">
+                        <p>$<span>4876</span> </p>
+                        <img class="hover:cursor-pointer w-6" src="./images/remove.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-lg">
+                <div class=" flex items-center justify-between">
+                    <h3>Subtotal : </h3>
+                    <p>$ <span>4935</span> </p>
+                </div>
+
+                <div class=" flex items-center justify-between">
+                    <h3>Tax : </h3>
+                    <p>$ <span>4935</span> </p>
+                </div>
+
+                <div class=" flex items-center justify-between">
+                    <h3>Total : </h3>
+                    <p>$ <span>4935</span> </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CUSTOM JAVASCRIPT -->
+        <script src="./javascript/main.js"></script>
+    </body>
+
+</html>
