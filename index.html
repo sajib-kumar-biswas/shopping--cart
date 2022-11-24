@@ -21,7 +21,7 @@
 
         <div class="w-3/4 mx-auto bg-gray-400 p-16 space-y-8 my-12">
 
-            <div class="rounded-lg bg-white grid grid-cols-2 items-center justify-between">
+            <div id="phone" class="rounded-lg bg-white grid grid-cols-2 items-center justify-between">
                 <div class="flex items-center gap-4">
                     <img class="w-32" src="./images/product-1.png" alt="">
                     <h2 class="w-fit">iPhone 13 128GB Black</h2>
@@ -29,19 +29,19 @@
 
                 <div class="grid grid-cols-2 items-center">
                     <div class="flex justify-start items-center gap-4">
-                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-minus"></i></span>
-                        <input class="text-xl w-20"  type="number" value="4" name="" id="">
-                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-plus"></i></span>
+                        <span id="phone-minus" class="text-3xl hover:cursor-pointer"><i class="uil uil-minus"></i></span>
+                        <input id="phone-number" class="text-xl w-20"  type="number" value="0" name="" id="">
+                        <span id="phone-plus" class="text-3xl hover:cursor-pointer"><i class="uil uil-plus"></i></span>
                     </div>
 
                     <div class="grid grid-cols-2">
-                        <p>$<span>4876</span> </p>
-                        <img class="hover:cursor-pointer w-6" src="./images/remove.png" alt="">
+                        <p>$<span id="phone-price">0</span> </p>
+                        <img id="phone-remove" class="hover:cursor-pointer w-6" src="./images/remove.png" alt="">
                     </div>
                 </div>
             </div>
 
-                        <div class="rounded-lg bg-white grid grid-cols-2 items-center justify-between">
+            <div id="case" class="rounded-lg bg-white grid grid-cols-2 items-center justify-between">
                 <div class="flex items-center gap-4">
                     <img class="w-32 ml-4" src="./images/product-2.png" alt="">
                     <h2 class="w-fit">iPhone 13 Silicone Case - Black</h2>
@@ -49,14 +49,14 @@
 
                 <div class="grid grid-cols-2 items-center">
                     <div class="flex justify-start items-center gap-4">
-                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-minus"></i></span>
-                        <input class="text-xl w-20"  type="number" value="4" name="" id="">
-                        <span class="text-3xl hover:cursor-pointer"><i class="uil uil-plus"></i></span>
+                        <span id="case-minus" class="text-3xl hover:cursor-pointer"><i class="uil uil-minus"></i></span>
+                        <input id="case-number" class="text-xl w-20"  type="number" value="0" name="" id="">
+                        <span id="case-plus" class="text-3xl hover:cursor-pointer"><i class="uil uil-plus"></i></span>
                     </div>
 
                     <div class="grid grid-cols-2">
-                        <p>$<span>4876</span> </p>
-                        <img class="hover:cursor-pointer w-6" src="./images/remove.png" alt="">
+                        <p>$<span id="case-price">0</span> </p>
+                        <img id="case-remove" class="hover:cursor-pointer w-6" src="./images/remove.png" alt="">
                     </div>
                 </div>
             </div>
@@ -64,17 +64,17 @@
             <div class="bg-white p-8 rounded-lg">
                 <div class=" flex items-center justify-between">
                     <h3>Subtotal : </h3>
-                    <p>$ <span>4935</span> </p>
+                    <p>$ <span id="subtotal">0</span> </p>
                 </div>
 
                 <div class=" flex items-center justify-between">
                     <h3>Tax : </h3>
-                    <p>$ <span>4935</span> </p>
+                    <p>$ <span id="tax">0</span> </p>
                 </div>
 
                 <div class=" flex items-center justify-between">
                     <h3>Total : </h3>
-                    <p>$ <span>4935</span> </p>
+                    <p>$ <span id="total">0</span> </p>
                 </div>
             </div>
         </div>
